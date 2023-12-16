@@ -1,0 +1,174 @@
+@use "./_fonts" as fonts;
+@use "./_nullstyle" as nullstyle;
+@use "./_variables" as variables;
+@use "./mixins" as mixins;
+
+body {
+    background-color: #303030;
+}
+
+.wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    height: fit-content;
+    width: 1000px;
+    padding: 25px 105px;
+    background-color: variables.$bgColor;
+}
+
+.title {
+    color: #3C251A;
+    text-align: center;
+    font-family: variables.$FontOleo;
+    font-size: 96.807px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.concept-and-background {
+
+
+    &__title {
+        @include mixins.title();
+        margin-bottom: 15px;
+
+    }
+    &__text{
+        @include mixins.text();
+        margin-bottom: 30px;
+    }
+}
+
+.typography-og-color-palette {
+    
+    &__title {
+        @include mixins.title();
+        margin-bottom: 21px;
+
+    }
+
+    &__fonts {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 21px;
+        gap: 49px;
+    }
+
+    &__oleo {
+        font-size: 28px;
+        font-family: Oleo Script Swash Caps;
+    }
+    &__inconsolata {
+        font-size: 28px;
+        font-family: Inconsolata;
+    }
+
+    &__text {
+        @include mixins.text();
+        margin-bottom: 50px;
+    }
+
+    &__colors {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    &__text1 {
+        @include mixins.text();
+        margin-bottom: 30px;
+    }
+
+}
+
+.color {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__circle {
+        width: 79.6px;
+        height: 79.6px;
+        border-radius: 100%;
+
+        &_crayola {
+            border: 1px solid black;
+            margin-bottom: 7.96px;
+        }
+
+        &_bistre {
+            background-color: #3C251A;
+            margin-bottom: 7.96px;
+        }
+
+        &_feldgrau {
+            background-color: #4C684A;
+            margin-bottom: 7.96px;
+        }
+
+        &_gray-x11 {
+            background-color: #BABABA;
+            margin-bottom: 7.96px;
+        }
+        
+        &_beaver {
+            background-color: #A38167;
+            margin-bottom: 7.96px;
+        }
+    }
+
+    &__hex {
+        margin-bottom: 10.45px;
+        font-weight: 500;
+        font-size: 12.736px;
+        font-family: Inconsolata;
+    }
+
+    &__name {
+        font-size: 15.92px;
+        margin-bottom: 32.46px;
+        font-family: Inconsolata;
+    }
+
+}
+
+.figures-and-forms {
+     
+    &__title {
+        @include mixins.title();
+        margin-bottom: 10px;
+    }
+
+    &__text {
+        @include mixins.text();
+        margin-bottom: 30px;
+    }
+}
+
+.design-principles {
+
+    &__title {
+        @include mixins.title();
+        margin-bottom: 10px;
+    }
+
+    &__text {
+        @include mixins.text();
+
+        &-bold {
+            font-weight: 600;
+        }
+        
+        &_with-margin {
+            margin-bottom: 20px;
+        }
+    }
+}
+

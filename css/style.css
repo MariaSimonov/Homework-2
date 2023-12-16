@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500&family=Montserrat:wght@400;500;600&family=Oleo+Script+Swash+Caps&display=swap");
+* {
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  border: 0;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+body {
+  background-color: #303030;
+}
+
+.wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 1000px;
+  padding: 25px 105px;
+  background-color: #EABE93;
+}
+
+.title {
+  color: #3C251A;
+  text-align: center;
+  font-family: "Oleo Script Swash Caps";
+  font-size: 96.807px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.concept-and-background__title {
+  color: #222;
+  font-family: Montserrat;
+  font-size: 30px;
+  font-weight: 500;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+.concept-and-background__text {
+  color: #222222;
+  text-align: justify;
+  font-family: "Montserrat";
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.typography-og-color-palette__title {
+  color: #222;
+  font-family: Montserrat;
+  font-size: 30px;
+  font-weight: 500;
+  font-size: 24px;
+  margin-bottom: 21px;
+}
+.typography-og-color-palette__fonts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 21px;
+  gap: 49px;
+}
+.typography-og-color-palette__oleo {
+  font-size: 28px;
+  font-family: Oleo Script Swash Caps;
+}
+.typography-og-color-palette__inconsolata {
+  font-size: 28px;
+  font-family: Inconsolata;
+}
+.typography-og-color-palette__text {
+  color: #222222;
+  text-align: justify;
+  font-family: "Montserrat";
+  font-size: 16px;
+  margin-bottom: 50px;
+}
+.typography-og-color-palette__colors {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.typography-og-color-palette__text1 {
+  color: #222222;
+  text-align: justify;
+  font-family: "Montserrat";
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.color {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.color__circle {
+  width: 79.6px;
+  height: 79.6px;
+  border-radius: 100%;
+}
+.color__circle_crayola {
+  border: 1px solid black;
+  margin-bottom: 7.96px;
+}
+.color__circle_bistre {
+  background-color: #3C251A;
+  margin-bottom: 7.96px;
+}
+.color__circle_feldgrau {
+  background-color: #4C684A;
+  margin-bottom: 7.96px;
+}
+.color__circle_gray-x11 {
+  background-color: #BABABA;
+  margin-bottom: 7.96px;
+}
+.color__circle_beaver {
+  background-color: #A38167;
+  margin-bottom: 7.96px;
+}
+.color__hex {
+  margin-bottom: 10.45px;
+  font-weight: 500;
+  font-size: 12.736px;
+  font-family: Inconsolata;
+}
+.color__name {
+  font-size: 15.92px;
+  margin-bottom: 32.46px;
+  font-family: Inconsolata;
+}
+
+.figures-and-forms__title {
+  color: #222;
+  font-family: Montserrat;
+  font-size: 30px;
+  font-weight: 500;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.figures-and-forms__text {
+  color: #222222;
+  text-align: justify;
+  font-family: "Montserrat";
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.design-principles__title {
+  color: #222;
+  font-family: Montserrat;
+  font-size: 30px;
+  font-weight: 500;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.design-principles__text {
+  color: #222222;
+  text-align: justify;
+  font-family: "Montserrat";
+  font-size: 16px;
+}
+.design-principles__text-bold {
+  font-weight: 600;
+}
+.design-principles__text_with-margin {
+  margin-bottom: 20px;
+}

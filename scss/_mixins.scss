@@ -1,0 +1,32 @@
+@use "./variables" as variables;
+
+@mixin title() {
+    color: variables.$textcolor;
+    font-family: variables.$FontMonserrat;
+    font-size: variables.$sectionTitlesize;
+    font-weight: 500;
+}
+@mixin text() {
+    color: variables.$textcolor;
+    text-align: justify;
+    font-family: variables.$FontMonserrat;
+    font-size: variables.$mebfontsize;
+}
+@mixin typographytext() {
+    color: #222;
+    text-align: justify;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    justify-content: left;
+}
+
+@mixin title() {
+    color: #222;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 500;
+    font-size: variables.$sectionTitlesize;
+}
